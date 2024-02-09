@@ -8,6 +8,13 @@ class PStack {
   showId() {
     return this.#id;
   }
+  get persons() {
+    return this._persons;
+  }
+
+  set persons(p) {
+    this._persons = p;
+  }
 
 }
 
